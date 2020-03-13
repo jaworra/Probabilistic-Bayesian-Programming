@@ -2,8 +2,7 @@
 Implemenation of standard mathematical operations
 '''
 
-
-import numpy as np
+import numpy as np #used for matrix operations only (different sizes)
 
 # Summation  
 x = [1, 2, 3, 4, 5, 6]
