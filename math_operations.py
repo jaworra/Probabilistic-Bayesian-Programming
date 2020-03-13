@@ -53,14 +53,14 @@ for i in range(len(y)):
 print(x)# -> [[2, 2], [12, 12]]
 
 # Cartesian Matrix Multiplication
-m1 = np.array([[1, 2, 3],[4, 5, 6] ])
-m2 = np.array([[7, 8],[9, 10],[11, 12]])
-r = np.array([[0, 0],[0, 0]])
+y = np.array([[1, 2, 3],[4, 5, 6] ])
+z = np.array([[7, 8],[9, 10],[11, 12]])
+x = np.array([[0, 0],[0, 0]])
 s = 0
 for i in range(2):
     for j in range(2):
         for k in range(3):
-            s = s + m1[i][k]*m2[k][j]
-        r[i][j] = s
+            s = s + y[i][k]*z[k][j]
+        x[i][j] = s
         s = 0
-print(r)
+print(x)
