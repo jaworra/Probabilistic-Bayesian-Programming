@@ -1,2 +1,2 @@
 # Probabilistic-Bayesian-Programming
-Pryo, PyMc, TensorFlow etc
+Pryo, PyMc, TensorFlow, Stan etc
