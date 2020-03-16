@@ -2,4 +2,4 @@
 Pryo, PyMc, TensorFlow, Stan etc
 
 # Requirements
-C++ interpreters
+C++ compilers
