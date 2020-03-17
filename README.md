@@ -2,4 +2,4 @@
 Pryo, PyMc, TensorFlow, Stan etc
 
 # Requirements
-C++ compilers
+C++ compilers with python interface
