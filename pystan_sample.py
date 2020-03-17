@@ -36,6 +36,7 @@ print(fit)
 eta = fit.extract(permuted=True)['eta']
 np.mean(eta, axis=0)
 
+'''
 # if matplotlib is installed (optional, not required), a visual summary and
 # traceplot are available
 fit.plot()
@@ -44,3 +45,4 @@ plt.show()
 # updated traceplot can be plotted with
 import arviz as az
 az.plot_trace(fit)
+'''
